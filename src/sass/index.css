@@ -1,1 +1,7 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';/*# sourceMappingURL=index.css.map */
+@import '~node_modules/modern-normalize/modern-normalize.css';
+.header {
+  color: aqua;
+}
+.header:hover {
+  color: black;
+}/*# sourceMappingURL=index.css.map */
