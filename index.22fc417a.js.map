@@ -1,0 +1,1 @@
+{"mappings":"YAAO,IAAiBA,EAAGC,EAAHD,ECEhB,EDFmBC,ECEhB,EDFsBC,QAAQC,IAAIH,EAAIC,E","sources":["src/js/calc-sum.js","src/index.js"],"sourcesContent":["export const calcSum = (a, b) => console.log(a + b);\n\n\n","import { calcSum } from \"./js/calc-sum\";\n\ncalcSum(5, 5);"],"names":["a","b","console","log"],"version":3,"file":"index.22fc417a.js.map"}
