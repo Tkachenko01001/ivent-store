@@ -1,0 +1,6 @@
+$color1: blue;
+
+@mixin container {
+    width: 200px;
+    border: 1px solid black;
+}
