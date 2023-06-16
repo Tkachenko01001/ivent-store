@@ -1,4 +1,15 @@
-$color1: blue;
+// main colors
+$accent: #A18A68;
+$white: #fff;
+$black: #000;
+
+// neutrals colors
+$dark_gray: #707070;
+$gray: #D8D8D8;
+$light_gray: #EFEFEF;
+
+// servise color
+$errors: #D82700;
 
 @mixin container {
     width: 200px;
