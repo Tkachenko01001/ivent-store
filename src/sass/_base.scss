@@ -1,4 +1,19 @@
-$color1: blue;
+<<<<<<< Updated upstream
+
+=======
+// main colors = m
+$color_m1: #A18A68;
+$color_m2: #fff;
+$color_m3: #000;
+
+// neutrals colors = n
+$color_n1: #707070;
+$color_n2: #D8D8D8;
+$color_n3: #EFEFEF;
+
+// servise color = s
+$color_s1: #D82700;
+>>>>>>> Stashed changes
 
 @mixin container {
     width: 200px;
