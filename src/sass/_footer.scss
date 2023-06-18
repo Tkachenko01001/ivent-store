@@ -1,0 +1,159 @@
+.container {
+  @include container;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer_linear {
+  width: 1248px;
+  padding-top: 253px;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+.footer_item {
+  padding-top: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_services {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+
+  a {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #707070;
+
+
+    font-family: 'DMSans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+
+    padding-right: 41px;
+  }
+}
+
+
+.footer_newsletter {
+  position: relative;
+
+  input {
+    border: none;
+    width: 396px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 13px;
+
+
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  //StackOverflow
+
+  input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  input::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  input:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  input:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  input:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  input:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  input:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+}
+
+.arrow_sends {
+  width: 25px;
+  height: 9px;
+  background-image: url('/src/images/icon for social/arrow.svg');
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+
+
+  border: none;
+
+  position: absolute;
+
+  top: 0;
+  bottom: 19px;
+  right: 0;
+
+  cursor: pointer;
+
+
+}
+
+.footer_copyright {
+  padding-top: 48px;
+  display: flex;
+  justify-content: space-between;
+
+  h5 {
+    font-family: 'DMSans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+
+    color: #707070;
+  }
+}
+
+.footer_icon {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  a {
+    padding-right: 30px;
+
+  }
+}
+
+
+
+
+
