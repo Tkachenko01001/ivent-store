@@ -13,9 +13,66 @@ $color_s1: #D82700;
 
 //Container
 @mixin container {
+  @media screen and (max-width:$xlarge_device){
     width: 1440px;
     padding: 0 96px;
+  }
+  @media screen and (max-width:$large_device){
+    width: 1200px;
+    padding: 0 96px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width:$medium_device){
+    width: 960px;
+    padding: 0 32px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width:$small_device){
+    width: 320px;
+    padding: 0 16px;
+    margin: auto;
+    overflow: hidden;
+  }
+
 }
+
+$small_device:480px;
+$medium_device:768px;
+$large_device:1279px;
+$xlarge_device:1920px;
+
+
+//Fonts
+$fontDM:'DMSans', Arial, sans-serif;
+
+
+//Font_weight
+$font_weight_bold:bold;
+$font_weight_medium:medium;
+$font_weight_normal: normal;
+$font_weight_italic: italic;
+$font_weight_light: light;
+
+//Font_size
+$font_size_33px:33px;
+$font_size_26px:26px;
+$font_size_20px:20px;
+$font_size_16px:16px;
+$font_size_14px:14px;
+$font_size_12px:12px;
+
+//Font_line_height
+$line_height_35px:35px;
+$line_height_26px:26px;
+$line_height_20px:20px;
+$line_height_27px:27px;
+$line_height_20xp:20px;
+
+
 
 
 //Fonts_install
@@ -59,41 +116,5 @@ $color_s1: #D82700;
   src: url('../fonts/DMSans-Regular.ttf') format('ttf');
   font-weight: 400;
   font-style: normal;
-}
-
-//Fonts_for_heading
-
-h1{
-  font-family: 'DMSans', Arial, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 33px;
-}
-
-h2{
-  font-family: 'DMSans', Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 26px;
-}
-
-h3{
-  font-family: 'DMSans', Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-}
-
-h4{
-  font-family: 'DMSans', Arial, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 20px;
-}
-h5{
-  font-family: 'DMSans', Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
 }
 
