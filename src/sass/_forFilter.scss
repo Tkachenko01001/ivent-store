@@ -1,0 +1,127 @@
+.filter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+$search-container-width: 252px;
+$search-container-height: 43px;
+$search-container-left: 96px;
+$search-container-top: 203px;
+$search-input-padding-right: 30px;
+
+$search-container-font-family: 'DM Sans';
+$search-container-font-weight: 500;
+$search-container-font-size: 33px;
+$search-container-line-height: 43px;
+$search-container-color: #000000;
+
+$search-icon-color: #555;
+
+.search-container {
+  width: $search-container-width;
+  height: $search-container-height;
+  border:  none;
+  border-bottom: 2px solid $color_n2;
+
+}
+$box-width: 261px;
+$box-height: 53px;
+$box-left: 99px;
+$box-top: 359px;
+$box-border-color: #D8D8D8;
+
+.box-shop {
+  box-sizing: border-box;
+  width: $box-width;
+  height: $box-height;
+  left: $box-left;
+  top: $box-top;
+  margin: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  border: 1px solid $box-border-color;
+  border-radius: 4px;
+}
+$heading-width: 54px;
+$heading-height: 22px;
+$heading-left: 111px;
+$heading-top: 374px;
+
+
+
+.shop-bottoms{
+box-sizing: border-box;
+width: 56px;
+height: 27px;
+left: 99px;
+top: 599px;
+
+/* 16px - Heading 5 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+
+/* identical to box height, or 169% */
+
+
+/* Light Colors/Black - Light */
+
+color: #000000;
+}
+.one-click {
+  left: 22.57%;
+right: 75.12%;
+top: 36.4%;
+bottom: 62.39%;
+
+/* Light Colors/Dark gray - Light */
+
+background: #707070;
+}
+
+.for-button {
+  width: 261px;
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+//filter
+.filter-p {
+  width: 261px;
+  height: 53px;
+  display: flex ;
+  justify-content: space-between;
+}
+
+
+.price {
+  width: 111px;
+  height: 22px;
+  font-size: 14px;
+  font-family: DM Sans;
+  line-height: 22px;
+
+
+  color: #707070;
+}
+
+.filter-text {
+  width: 33px;
+  height: 22px;
+  font-size: 14px;
+  font-family: DM Sans;
+  line-height: 22px;
+
+  color: #A18A68;
+}
+
+
