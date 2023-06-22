@@ -1,4 +1,75 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-BoldItalic.ttf") format("ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Italic.ttf") format("ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-MediumItalic.ttf") format("ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-family: "DMSans", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 33px;
+}
+
+h2 {
+  font-family: "DMSans", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+}
+
+h3 {
+  font-family: "DMSans", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "DMSans", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+h5 {
+  font-family: "DMSans", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
 .header {
   color: aqua;
 }
@@ -7,6 +78,91 @@
 }
 
 .container {
-  width: 200px;
-  border: 1px solid black;
+  width: 1440px;
+  padding: 0 96px;
+}
+
+.filter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container {
+  width: 252px;
+  height: 43px;
+  border: none;
+  border-bottom: 2px solid #D8D8D8;
+}
+
+.box-shop {
+  box-sizing: border-box;
+  width: 261px;
+  height: 53px;
+  left: 99px;
+  top: 359px;
+  margin: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #D8D8D8;
+  border-radius: 4px;
+}
+
+.shop-bottoms {
+  box-sizing: border-box;
+  width: 56px;
+  height: 27px;
+  left: 99px;
+  top: 599px;
+  /* 16px - Heading 5 */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  /* identical to box height, or 169% */
+  /* Light Colors/Black - Light */
+  color: #000000;
+}
+
+.one-click {
+  left: 22.57%;
+  right: 75.12%;
+  top: 36.4%;
+  bottom: 62.39%;
+  /* Light Colors/Dark gray - Light */
+  background: #707070;
+}
+
+.for-button {
+  width: 261px;
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-p {
+  width: 261px;
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  width: 111px;
+  height: 22px;
+  font-size: 14px;
+  font-family: DM Sans;
+  line-height: 22px;
+  color: #707070;
+}
+
+.filter-text {
+  width: 33px;
+  height: 22px;
+  font-size: 14px;
+  font-family: DM Sans;
+  line-height: 22px;
+  color: #A18A68;
 }/*# sourceMappingURL=index.css.map */
