@@ -1,12 +1,252 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
-.header {
-  color: aqua;
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=DM+Sans&display=swap");
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
 }
-.header:hover {
-  color: black;
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-BoldItalic.ttf") format("ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Italic.ttf") format("ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-MediumItalic.ttf") format("ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+/* General */
+.header {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-  width: 200px;
-  border: 1px solid black;
+  margin: 0;
+  max-width: 1278px;
+  padding: 0;
+  height: 42px;
+  margin-bottom: 16px;
+}
+
+.logo {
+  margin-right: auto;
+  color: #000;
+  font-size: 35px;
+  font-family: "Allerta Stencil", sans-serif;
+}
+
+.logo strong {
+  font-weight: inherit;
+  color: #A18A68;
+}
+
+/* Nav */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 64px;
+       column-gap: 64px;
+  flex-wrap: wrap;
+  font-family: "DM Sans", sans-serif;
+}
+
+.nav {
+  width: 1248px;
+  border-bottom: 1px solid #D8D8D8;
+  margin-top: 64px;
+  letter-spacing: normal;
+}
+
+.nav-row {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 48px;
+       column-gap: 48px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-list__item {
+  color: #000;
+  font-size: 16px;
+}
+
+.nav-list__link {
+  color: #000;
+}
+.nav-list__link:hover {
+  opacity: 0.8;
+}
+
+.nav-list__link--active {
+  position: relative;
+}
+.nav-list__link--active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 45px;
+  height: 2px;
+  width: 100%;
+  background-color: #000;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 39px;
+       column-gap: 39px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1240px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 840px) {
+  .container {
+    margin-bottom: 0;
+  }
+  .logo {
+    font-size: 24px;
+  }
+  .nav {
+    margin-top: 18px;
+  }
+  .nav-list__link--active::before {
+    top: 33.5px;
+  }
+  .nav-row {
+    -moz-column-gap: 12px;
+         column-gap: 12px;
+  }
+  .nav-menu {
+    -moz-column-gap: 18px;
+         column-gap: 18px;
+  }
+  .nav-bar {
+    -moz-column-gap: 12px;
+         column-gap: 12px;
+  }
+  .nav-list__item {
+    font-size: 12px;
+  }
+}
+@media (max-width: 390px) {
+  .logo {
+    font-size: 18px;
+  }
+  .nav {
+    padding: 0 10px;
+  }
 }/*# sourceMappingURL=index.css.map */
