@@ -11,7 +11,7 @@
 .footer_linear {
   width: 1248px;
   padding-top: 253px;
-  border-bottom: 1px solid #D8D8D8;
+  border-bottom: 1px solid $color_n2;
 }
 
 .footer_item {
@@ -31,14 +31,14 @@
 
   text-decoration: none;
   text-transform: uppercase;
-  color: #707070;
+  color: $color_n1;
 
 
-  font-family: 'DMSans', Arial, sans-serif;
+  font-family: $fontDM;
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 27px;
+  font-weight: $font_weight_normal;
+  font-size: $font_size_regular;
+  line-height: $line_height_xlarge;
 
   margin-right: 41px;
 }
@@ -132,13 +132,13 @@ input:focus:-ms-input-placeholder {
   justify-content: space-between;
 
   h5 {
-    font-family: 'DMSans', Arial, sans-serif;
+    font-family:$fontDM;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 27px;
+    font-weight: $font_weight_normal;
+    font-size: $font_size_regular;
+    line-height: $line_height_xlarge;
 
-    color: #707070;
+    color: $color_n1;
   }
 }
 
@@ -147,10 +147,9 @@ input:focus:-ms-input-placeholder {
   display: flex;
   flex-wrap: wrap;
 
-  a {
-    margin-right: 30px;
-
-  }
+}
+.footer_social_icon{
+  margin-right: 30px;
 }
 
 
