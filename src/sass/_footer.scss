@@ -24,85 +24,85 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+}
 
 
-  a {
+.footer_nav {
 
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #707070;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #707070;
 
 
-    font-family: 'DMSans', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 27px;
+  font-family: 'DMSans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
 
-    padding-right: 41px;
-  }
+  margin-right: 41px;
 }
 
 
 .footer_newsletter {
   position: relative;
-
-  input {
-    border: none;
-    width: 396px;
-    border-bottom: 1px solid #000000;
-    padding-bottom: 13px;
+}
 
 
-  }
+.email-input {
+  border: none;
+  width: 396px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 13px;
 
-  input:focus {
+  &:focus {
     outline: none;
   }
-
-  //StackOverflow
-
-  input::-webkit-input-placeholder {
-    opacity: 1;
-    transition: opacity 0.3s ease;
-  }
-
-  input::-moz-placeholder {
-    opacity: 1;
-    transition: opacity 0.3s ease;
-  }
-
-  input:-moz-placeholder {
-    opacity: 1;
-    transition: opacity 0.3s ease;
-  }
-
-  input:-ms-input-placeholder {
-    opacity: 1;
-    transition: opacity 0.3s ease;
-  }
-
-  input:focus::-webkit-input-placeholder {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  input:focus::-moz-placeholder {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  input:focus:-moz-placeholder {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  input:focus:-ms-input-placeholder {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
 }
+
+//StackOverflow
+
+input::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
 
 .arrow_sends {
   width: 25px;
@@ -148,7 +148,7 @@
   flex-wrap: wrap;
 
   a {
-    padding-right: 30px;
+    margin-right: 30px;
 
   }
 }
