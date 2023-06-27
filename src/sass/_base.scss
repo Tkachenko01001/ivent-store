@@ -120,3 +120,64 @@ $line_height_medium:20px;
   font-style: normal;
 }
 
+
+// Icons
+.icon_color_normal{
+  width: 20px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #707070;
+  }
+
+.icon_color_hover{
+  width: 20px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #000000;
+  }
+
+  .icon_color_active{
+    width: 20px;
+    height: 17px;
+    flex-shrink: 0;
+    color: #000000;
+    }
+  
+.shop_normal{
+  width: 43px;
+  height: 32px;
+  color: #000;
+  }
+
+.shop_hover{
+  width: 43px;
+  height: 32px;
+  color: #000;
+  }
+
+.shop_active{
+  width: 43px;
+  height: 59px;
+  color: #000;
+  }
+
+.shopping_cart_normal{
+  width: 21px;
+  height: 21px;
+  flex-shrink: 0;
+  color: #000;
+  }  
+
+.shopping_cart_hover{
+    width: 21px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #000;
+    }  
+
+.shopping_cart_active{
+    width: 23px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #000;
+    }  

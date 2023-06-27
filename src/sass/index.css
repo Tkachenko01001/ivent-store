@@ -1,4 +1,135 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-BoldItalic.ttf") format("ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Italic.ttf") format("ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-MediumItalic.ttf") format("ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-family: "DMSans", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 33px;
+}
+
+h2 {
+  font-family: "DMSans", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+}
+
+h3 {
+  font-family: "DMSans", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "DMSans", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+h5 {
+  font-family: "DMSans", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.icon_color_normal {
+  width: 20px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #707070;
+}
+
+.icon_color_hover {
+  width: 20px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #000000;
+}
+
+.icon_color_active {
+  width: 20px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #000000;
+}
+
+.shop_normal {
+  width: 43px;
+  height: 32px;
+  color: #000;
+}
+
+.shop_hover {
+  width: 43px;
+  height: 32px;
+  color: #000;
+}
+
+.shop_active {
+  width: 43px;
+  height: 59px;
+  color: #000;
+}
+
+.shopping_cart_normal {
+  width: 21px;
+  height: 21px;
+  flex-shrink: 0;
+  color: #000;
+}
+
+.shopping_cart_hover {
+  width: 21px;
+  height: 21px;
+  flex-shrink: 0;
+  color: #000;
+}
+
+.shopping_cart_active {
+  width: 23px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #000;
+}
+
 .header {
   color: aqua;
 }
@@ -7,6 +138,6 @@
 }
 
 .container {
-  width: 200px;
-  border: 1px solid black;
+  width: 1440px;
+  padding: 0 96px;
 }/*# sourceMappingURL=index.css.map */
