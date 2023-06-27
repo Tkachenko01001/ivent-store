@@ -13,9 +13,68 @@ $color_s1: #D82700;
 
 //Container
 @mixin container {
+  @media screen and (max-width:$xlarge_device){
     width: 1440px;
     padding: 0 96px;
+    margin: auto;
+  }
+  @media screen and (max-width:$large_device){
+    width: 1200px;
+    padding: 0 96px;
+    margin: auto;
+
+  }
+
+  @media screen and (max-width:$medium_device){
+    width: 960px;
+    padding: 0 32px;
+    margin: auto;
+
+  }
+
+  @media screen and (max-width:$small_device){
+    width: 320px;
+    padding: 0 16px;
+    margin: auto;
+
+  }
+
 }
+
+$small_device:480px;
+$medium_device:768px;
+$large_device:1279px;
+$xlarge_device:1920px;
+
+
+//Fonts
+$fontDM:'DMSans', Arial, sans-serif;
+
+
+//Font_weight
+$font_weight_bold:bold;
+$font_weight_medium:medium;
+$font_weight_normal: normal;
+$font_weight_italic: italic;
+$font_weight_light: light;
+
+//Font_size
+$font_size_huge:33px;
+$font_size_large:26px;
+$font_size_medium:20px;
+$font_size_regular:16px;
+$font_size_small:14px;
+$font_size_tiny:12px;
+
+//Font_line_height
+$line_height_huge:35px;
+$line_height_xlarge:27px;
+$line_height_large:26px;
+$line_height_medium:20px;
+
+
+
+
 
 
 //Fonts_install
